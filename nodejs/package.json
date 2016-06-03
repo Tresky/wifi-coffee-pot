@@ -7,8 +7,8 @@
   "dependencies": {
     "express": "latest",
     "nunjucks": "latest",
-    "lodash": "latest",
-    "arest": "latest"
+    "colors": "latest"
+    //"arest": "latest"
   },
   "main": "app.js",
   "author": "Tyler Petresky",

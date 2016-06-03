@@ -4,11 +4,26 @@
  * Author:  Tyler Petresky
  * Email:   hello@tylerpetresky.com
  * Date:    January 2016
+ *
+ * Please direct all questions to
+ * the email provided.
  * * * * * * * * * * * * * * * * * */
 
 var express         = require('express'),
     app             = express();
 var nunjucks        = require('nunjucks');
+
+// This aREST package was modified by yours truly
+// to work a little bit better. If you install arest
+// using npm, your front end won't work correctly.
+// See my fork of the aREST package in my Github page
+// for a modified version:
+// 
+// https://github.com/Tresky/node-aREST
+//
+// To use my package, simply download it and place the
+// 'index.js' file inside of node_modules/arest. You
+// can them import it into your NodeJS server.
 var arest           = require('arest')(app);
 var colors          = require('colors');
 
