@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Vera</title>
+
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <meta name='viewport' content='width=device-width,initial-scale=1'>
+
+        <link rel='stylesheet' href='./css/font-awesome.min.css'>
+        <link rel='stylesheet' href='./css/bootstrap.min.css'>
+        <link rel='stylesheet' href='./css/bootstrap-theme.min.css'>
+        <link rel='stylesheet' href='./css/main.css'>
+
+        <link rel='icon' href='favicon.ico' type='image/x-icon'>
+    </head>
+    <body>
+        <div class='container'>
+            <div id='row-1' class='row'>
+                <div class='col-md-6'>
+                    <h1 id='title'>Vera</h1>
+                </div>
+                <div id='connect' class='col-md-6'>
+                    <button class='btn' onclick='Connect()'>Connect</button>
+                </div>
+            </div>
+            <div id='row-2' class='row'>
+                <div class='col-md-6'>
+                    <button class='btn btn-coffee brew' data-toggle='modal' data-target='#goat-modal' onclick='BrewClick()'>
+                        Brew
+                    </button>
+                </div>
+                <div class='col-md-6'>
+                    <button class='btn btn-coffee off' onclick='OffClick()'>Off</button>
+                </div>
+            </div>
+
+            <img id='goat' src='/images/goat.png' />
+        
+        </div>
+
+        <!-- Modal -->
+        <div class='modal fade' id='goat-modal' tabindex='-1' role='dialog'>
+              <div class='modal-dialog' role='document'>
+                    <div class='modal-content'>
+                          <div class='modal-header' style='border: none;'>
+                                <h4 class='modal-title' style='font-size: 32pt;' id='modal-label'>Brewing ...</h4>
+                          </div>
+                          <div class='modal-body'>
+                                <img id='billy-the-goat' src='./images/billy-the-goat.png' height='500' />
+                          </div>
+                    </div>
+              </div>
+        </div>
+
+        <script type='text/javascript' src='./js/jquery-2.2.0.min.js'></script>
+        <script type='text/javascript' src='./js/bootstrap.min.js'></script>
+        <script type='text/javascript' src='./js/aREST.js'></script>
+        <script type='text/javascript' src='./js/main.js'></script>
+
+    </body>
+
+</html>

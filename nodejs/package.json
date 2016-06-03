@@ -1,0 +1,16 @@
+{
+  "name": "coffee-pot",
+  "private": false,
+  "version": "0.0.1",
+  "description": "wifi coffee pot",
+  "keywords": [],
+  "dependencies": {
+    "express": "latest",
+    "nunjucks": "latest",
+    "lodash": "latest",
+    "arest": "latest"
+  },
+  "main": "app.js",
+  "author": "Tyler Petresky",
+  "license": ""
+}
